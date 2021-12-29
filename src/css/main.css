@@ -1,0 +1,68 @@
+/*Homepage CSS [This file only]*/
+
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+/*Generals*/
+* {
+    padding: 0;
+    margin: 0 auto;
+}
+
+body {
+    /*Let's add a fancy Gradient... using a https://uigradients.com Gradient*/
+    background: #8e9eab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    /*Font Applied to all this page (From https://fonts.google.com [Comfortaa Font])*/
+    font-family: 'Comfortaa', sans-serif;
+}
+
+/*Nav Bar... let's see...*/
+.navbar {
+    left: 0;
+    position: fixed;
+    top:-30px;
+}
+
+.navbar-logo {
+    width: 150px;
+    height: 150px;   
+}
+
+.navbar-links {
+    display: inline-block;
+}
+
+.navbar-link {
+    display: inline;
+    padding: 12px 18px;
+    padding-left: 1px;
+}
+
+.navbar-link a {
+    text-decoration: none;
+    font-size: 25px;
+    vertical-align: -30px;
+    color: black;
+    text-decoration: transparent underline 2px;
+    transition: all 0.5s;
+}
+
+.navbar-link a:hover {
+    text-decoration: gray 2px underline;
+}
+
+/*sep*/
+.sep {
+    border: 2px solid rgba(128, 128, 128, 0.63);
+}
+
+/*Start BTN*/
+
+.btn-start {
+    width: 260px;
+    height: 50px;
+    font-size: 20px;
+}
